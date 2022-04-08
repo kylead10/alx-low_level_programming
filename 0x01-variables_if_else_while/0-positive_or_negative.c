@@ -12,7 +12,7 @@ int main(void)
 {
 	int n;
 
-	srand(time));
+	srand(time);
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 1)
@@ -22,7 +22,6 @@ int main(void)
 	else
 
 		printf("%d is zero\n", n);
-
 	return (0);
 }
 
