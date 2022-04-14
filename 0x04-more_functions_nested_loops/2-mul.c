@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * mul - function that multiplies two integers.
- *
- * Return: Always 0.
+ * @a: first input value to check
+ * @b: Sec input value to check
+ * Return: int.
  */
 
 int mul(int a, int b)
