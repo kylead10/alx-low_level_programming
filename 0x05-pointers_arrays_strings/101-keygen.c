@@ -1,18 +1,25 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * swap_int - swaps the values of two integers.
+ * main - entry point generates a random password
  *
- * @a: pointer to an int
- * @b: pointer to other int
- * Return: Nothing
+ * Return: generated password
  */
 
-void swap_int(int *a, int *b)
+int main(void)
 {
-	int aux;
+	char c;
+	int x;
 
-	aux = *a;
-	*a = *b;
-	*b = aux;
+	srand(time(0));
+	while (x <= 2645)
+	{
+		c = rand() % 128;
+		x += c;
+		putchar(c);
+	}
+	putchar(2772 - x);
+	return (0);
 }
