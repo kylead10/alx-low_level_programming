@@ -7,7 +7,7 @@
  * @action: is a pointer to the function
  * @size: is the size of the array
  *
- */
+ **/
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
