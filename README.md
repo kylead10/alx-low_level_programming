@@ -1,3 +1,3 @@
 0x00. C - Hello, World
-This repository introduces C programming lan
+This repository introduces C programming l
 An AlX task solution.
