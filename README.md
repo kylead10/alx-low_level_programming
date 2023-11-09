@@ -1,3 +1,3 @@
 C - Hello World
 This repository introduces C programming language.
-An AlX protask solution.
+An AlX program task solution.
