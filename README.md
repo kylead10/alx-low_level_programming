@@ -1,4 +1,4 @@
 -Hello World
 This repository introduces C programming language.
 An ALX devop program tasks solution.
-this is related to t
+this is related
